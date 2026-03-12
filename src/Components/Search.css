@@ -1,0 +1,53 @@
+.second-logo{
+    width: 35px;
+    height: 30px;
+}
+
+.display{
+    display: flex;
+    
+    gap: 0.5rem;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.input{
+  width: 40rem;
+ 
+  height: 7vh;
+  font-size: 18px;
+  
+}
+.logo1{
+width: 10rem;
+height: 5rem;
+background-color: aqua;
+}
+
+.button1{
+    width: 10rem;
+    height: 7.2vh;
+    font-size: 20px;
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.select{
+border-style: none;
+}
+
+.third-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.search-container{
+    display: flex;
+    gap: 1rem;
+}
