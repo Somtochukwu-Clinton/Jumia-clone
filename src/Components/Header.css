@@ -1,0 +1,52 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.headerimage{
+    width:100%;
+    height: 10vh;
+    margin-bottom: 0;
+}
+
+
+
+.jumia-container{
+display: flex;
+align-items: center;
+background-color: rgb(216, 215, 215);
+height: 3rem;
+
+
+}
+
+
+.sell-onjumia{
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    margin-left: 1.5rem;
+    
+    width: 35%;
+  
+}
+
+.jumia-list{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color: rgb(134, 116, 116);
+    font-weight: bold;
+}
+
+.jumia{
+ font-size: 22px;
+ color:black
+}
