@@ -45,6 +45,7 @@ border-style: none;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    height: 5rem;
 }
 
 .search-container{
