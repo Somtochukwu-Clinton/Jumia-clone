@@ -1,3 +1,81 @@
 .background{
     background-color: orange;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+li{
+    list-style: none;
+}
+
+.pics{
+ width: 20px;
+}
+.slideingImage{
+    height: 60vh;
+}
+
+.container{
+display: flex;
+justify-content: left;
+gap: 0.4rem;
+margin-top: 1rem;
+}
+.button2{
+    width: 65px;
+    height: 60px;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 18rem;
+    font-size: 22px;
+    left:20.9rem ;
+    border: none;
+    background-color: grey;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.button2:hover.button2{
+    opacity: 1;
+}
+
+
+.button3{
+    width: 65px;
+    height: 60px;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 18rem;
+    font-size: 22px;
+    border: none;
+    background-color: grey;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.button3:hover.button3{
+    opacity: 1;
+}
+ul{
+    background-color: white;
+    box-shadow: 0 2px 4px ;
+    padding: 30px;
+    border-radius: 12px;
+    
+}
+.pics2{
+width: 40px;
+}
+
+.container2{
+display: flex;
+justify-content: left;
+align-items: center;
+gap: 0.4rem;
+margin-top: 1rem;
+}
+
+.last-style{
+    margin-top: 2rem;
 }
